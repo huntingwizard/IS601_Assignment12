@@ -1,3 +1,26 @@
+https://hub.docker.com/r/jsl52/601_module12  
+
+# Test Commands  
+git clone https://github.com/huntingwizard/IS601_Assignment12  
+python3 -m venv venv  
+source venv/bin/activate  
+pip install -r requirements.txt  
+docker compose up --build  
+pytest --run-slow  
+Check Localhost:8000 and localhost:5050  
+localhost:5050 type in the email and password  
+      PGADMIN_DEFAULT_EMAIL: admin@example.com  
+      PGADMIN_DEFAULT_PASSWORD: admin  
+add server  
+
+name server db and host db  
+password postgres  
+maintenance server is fastapi_db  
+
+head to http://localhost:8000/docs#/  
+register a user and login  
+try out the new get,put,delete, etc... in calculations  
+
 # 📦 Project Setup
 
 ---
