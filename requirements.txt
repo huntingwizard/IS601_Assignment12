@@ -1,5 +1,5 @@
 
-aioredis==2.0.1
+redis>=5.0.0
 annotated-types==0.7.0
 anyio>=4.14.2
 async-timeout==5.0.1
